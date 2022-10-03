@@ -1,0 +1,31 @@
+/* myclasses.css for myclasses.html */
+
+/* Styles that apply to every element in the body, unless overriden */
+body {
+    font-family: Verdana, Arial, Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000;
+    background-color: #FF0;
+}
+
+h1 { color: #00F; } /* would override font-color stated above */
+
+/* Styles any list item in an unordered list */
+ul li{
+    font-size: medium; /* overrides body font sive above */
+    font-style: italic; /* adds italic style to text of list items */
+}
+
+/* A "generic" class whose styles can be applied to any element */
+.BoldItalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* A "generic" class whose styles can be applied to any element */
+.BlackOnWhiteSerif {
+    padding: 30px; /* on all four sides of any element with this style */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F00;
+    background-color: #D3D3D3;
+}

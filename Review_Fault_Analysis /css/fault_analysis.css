@@ -1,0 +1,93 @@
+h1 {
+    background-color: #a9e2f8;
+    color: #000;
+    padding: 4px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+h2{
+    color:#000;
+    padding: 2px;
+    text-align: left;
+    background-color: #D3D3D3;
+}
+
+p {
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+tr{ /* effective on the photo info so that it is centered */
+    text-align: center;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* ID's */
+#main_container {
+    padding: 120px 40px 10px 40px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#extraPadding{
+    padding: 50px 0px 0px 0px;
+}
+
+/* CLASSES */
+.PowerGrid_photos{
+    width: 550px;
+    padding: 5px;
+}
+
+.Extra-padding1{
+    padding: 0px 0px 1px 0px;
+    background-color: #e61e1e;
+}
+
+.Extra-padding2{
+    padding: 1px 0px 0px 0px;
+    background-color: #1ee62f;
+}
+
+.Italic{
+    font-style: italic;
+}
+
+.BoldItalic {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #e9ef75;
+    width: 92%;
+}
+
+.Bold{
+    font-weight: bold;
+}
+
+.Table td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.Tbody tr:nth-child(even){background-color: #dddddd;}
+
+.ExtraPaddingPhoto1{
+    padding: 0px 100px 0px 50px;
+    
+}
+
+.ExtraPaddingPhoto2{
+    padding: 0px 50px 0px 100px;
+    
+}
+
+
