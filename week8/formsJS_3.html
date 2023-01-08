@@ -1,0 +1,50 @@
+<!-- 
+    Complete the code in the indicated places.
+    Do NOT change the code elsewhere
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Play with JS Forms</title>
+    <link rel="stylesheet" href="css/default.css" />
+  </head>
+
+  <body>
+    <h2>
+      FORMS IN JS
+    </h2>
+    <form id="main_form">
+    <div id="main-part1" class="center">
+      <fieldset>
+        <legend>ADD ITEM</legend>
+        <p>
+          Click <em>"Add"</em> to add a new Item.
+        </p>
+        <p>
+          Item to add:
+          <input type="text" id="newItemtId" value="item1" />
+          <input type="button" value="Add" onclick="addItem_v2()" />
+
+        </p>
+        <ol id="oListId"></ol>
+          <br> <br>
+          <input type="button" value="Get Random Number" onclick="getRandom()" />
+          <input type="text" id="RndNumber" value="" />
+          <br> <br>
+          Corresponding random Item: <input type="text" id="RndItem" value="" />
+         <br> <br>
+         <input type="button" value="Get them shifted" onclick="getShift()" />
+         <input type="text" id="shiftRnd" value="" />
+         <br> <br>
+         <input type="reset" value="RESET" onclick="resetAll()" />
+
+      </fieldset>
+
+    </div>
+      </form>
+    </div>
+
+    <script src="./js/formsJS_3.js"></script>
+  </body>
+</html>

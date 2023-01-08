@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+}
+
+#main-part1 {
+  background-color: #ffb;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 750px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  position: static;
+  font-size: 10pt;
+}
+
+#main-part2 {
+  background-color: rgb(187,233,255); 
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 750px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  position: static;
+  font-size: 10pt;
+}
+
+input {
+  background-color: #eee;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  justify-content: center;
+}

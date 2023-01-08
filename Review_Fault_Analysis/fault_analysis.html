@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>2909-001 Assignment 1</title>
+    <link rel="stylesheet" href="css/fault_analysis.css">
+  </head>
+  <body>
+    <h1>A Review and Taxonomy on Fault Analysis in Transmission Power Systems
+      <br>
+      By: Dr. Al Mtawa et al.
+    </h1>
+    <div id="main_container">
+      <div class="Extra-padding2">
+        <h2>Abstract</h2>
+      </div>
+      <p>Fault analysis is a cornerstone of enhancing resiliency in power grid systems
+        so that electrical distribution companies provide high-level service.
+        This study aims to provide a compact yet comprehensive review of the state-of-the-art
+        works of fault analysis in transmission power systems. We discuss fault types and several
+        fault-analysis methodologies adopted by relevant research works, propose a novel framework
+        to classify these works, and highlight their strengths and limitations.
+        We anticipate that this survey would be helpful as a literature review and benefit the
+        research community in choosing suitable techniques for fault analysis.</p>
+      <div class="Extra-padding1">
+        <h2>Introduction</h2>
+      </div>
+      <p>Electric power systems have evolved over decades from synchronous machines to
+        renewable energy sources for generating electricity. However, the power grid's operation
+        has always been challenging because of extreme operational and environmental condi-tions.
+        In this article, we address the need for power system fault analysis and provide the contributions
+        and structure of this paper.</p>
+      <div class="Extra-padding2">
+        <h2>Contributions</h2>
+      </div>
+      <p>The contributions of this paper are as follows.</p>
+      <ol class="Italic">
+        <li>Unlike other surveys, this study provides a deeper insight into the comprehensive and
+          most recent state-of-the-art techniques for academic and industrial research communities.</li>
+        <li class="BoldItalic">We highlight the key challenges presented in the recent literature and summarize the
+          elated research work in terms of their strengths, weaknesses, and gaps.</li>
+        <li>We provide a novel classification scheme to classify relevant fault-analysis tech-niques
+          according to the method used and the target task (i.e., detection, classification,
+          or localization).</li>
+      </ol>
+      <p>The following diagram shows the power grid components and fault types in transmission syste.</p>
+      <table>
+        <tr>
+          <td class="ExtraPaddingPhoto1">
+            <img class="PowerGrid_photos" src="images/PowerGrid.png" alt="Power Grid">
+          </td>
+          <td class="ExtraPaddingPhoto2">
+            <img class="PowerGrid_photos" src="images/Transmission_faults.svg" alt="Transmission Faults">
+          </td>
+        </tr>
+        <tr>
+          <td>(a)</td>
+          <td>(b)</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+          Fig.1. An Illustration of Power Grid
+          </td>
+        </tr>
+        <tr>
+          <td>(a) Power Grid Components</td>
+          <td>(b) Fault Classification of Power Tranmission System</td>
+        </tr>
+      </table>
+      <div class="Extra-padding1">
+        <h2>Summary</h2>
+      </div>
+      <p>The following Table shows portion of the analysis of relevant fault analysis works.</p>
+      <p class="Bold">
+        TABLE 1. Summary of the analysis techniques concerning the methods considered in the
+        surveyed works. It illustrates the tasks these techniques perform (i.e., detection,
+        classification, or localization). The "General Remarks" column shows the advantages/disadvantages
+        of the corresponding technique, and whether it uses a terminal or two to achieve its tasks.
+      </p>
+      <table class="Table">
+        <thead>
+          <tr>
+            <th>Fault Analysis Method</th>
+            <th>Work</th>
+            <th>Fault Detection/Classification/Localization</th>
+            <th>General Remarks</th>
+          </tr>
+        </thead>
+        <tbody class="Tbody">
+          <tr>
+            <td rowspan="3">Conventional</td>
+            <td>Takagi et al.</td>
+            <td>Localization</td>
+            <td>the assumption of the angles' equality may lead to erroneous locations</td>
+          </tr>
+          <tr>
+            <td>Azizi et al.</td>
+            <td>Localization</td>
+            <td>phasor measurement units (PMUs); tolerant to time-synch signal and PMU losses</td>
+          </tr>
+          <tr>
+            <td>Das et al.</td>
+            <td>Detection and Localization</td>
+            <td>transient stability assessment problem</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Wirless Sensor Netwroks</td>
+            <td>Namdev et al.</td>
+            <td>Detection</td>
+            <td>reliable, and can be used to locate faulty lines</td>
+          </tr>
+          <tr>
+            <td>Yang et al.</td>
+            <td>Detection</td>
+            <td>good for remote areas; the system has low power consumption</td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="extraPadding">This paper provides an insightful study on fault analysis in transmission power sys-tems.
+        We provide a novel categorization scheme of relevant solutions and proposals in faults analysis
+        of transmission systems according to the method used and the target task, whether it is detection,
+        classification, or localization of faults. As a result of this categori-zation, we have identified
+        the main research areas required to bridge the gap in the re-search body. We have identified gaps
+        such as the lack of automation in the proposed solu-tions regarding fault analysis and seamless
+        action-taking upon a failure incident. Fur-thermore, cascading faults are a major issue in a
+        transmission system. Current solutions are not fast enough for quality decision-making to prevent
+        fault propagation. For more information, click
+        <a href="https://www.mdpi.com/2079-3197/10/9/144/htm" target="_blank">here</a>
+      </p>
+    </div>
+  </body>
+</html>
