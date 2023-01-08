@@ -1,0 +1,52 @@
+[
+    {
+     "English Name": "Malabar Nut",
+     "Botanical Name": "Adhatoda vasica Nees Pennel",
+     "Possible Uses": ["Cough", " Asthma", " Bronchitis"]
+    },
+    {
+        "English Name": "Indian Gum",
+        "Botanical Name": "Acacia arabica Willd Pennel",
+        "Possible Uses": ["Ringworm", " Dysentery", " Wounds"]
+    },
+    {
+        "English Name": "Garlic",
+        "Botanical Name": "Allium sativum Pennel",
+        "Possible Uses": ["Cough", " Asthma", " Bronchitis"]
+    },
+    {
+        "English Name": "Holy Basil",
+        "Botanical Name": "Ocimum sactum Linn Pennel",
+        "Possible Uses": ["Indigestion", " Heart Diseases", " Respiratory Diseases"]
+    },
+    {
+        "English Name": "Sage leaf alangium",
+        "Botanical Name": "Alangium salvifolium Pennel",
+        "Possible Uses": ["Snakebite", " Scorpion Bite", " Dog Bite"]
+    },
+    {
+        "English Name": "Greater Cardamom",
+        "Botanical Name": "Amomum subulatum Pennel",
+        "Possible Uses": ["Bronchitis", " Asthma", " Appetizer", " Digestant"]
+    },
+    {
+        "English Name": "Shal Leafed Bush",
+        "Botanical Name": "Desmodium gangetium DC Pennel",
+        "Possible Uses": ["Analgesic", " Anti-Inflammatory"]
+    },
+    {
+        "English Name": "Himalayan Birch",
+        "Botanical Name": "Betula utilis D. Don Pennel",
+        "Possible Uses": ["Wounds", " Obesity"]
+    },
+    {
+        "English Name": "Bark Cinnamon",
+        "Botanical Name": "Cinnamomum Zeylanicum Breyn Pennel",
+        "Possible Uses": ["Antibacterial", " Antiseptic"]
+    },
+    {
+        "English Name": "Spreading Hogweed",
+        "Botanical Name": "Boerhaavia diffusa Linn Pennel",
+        "Possible Uses": ["Anemia", " Wounds"]
+    }
+]
